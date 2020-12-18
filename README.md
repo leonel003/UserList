@@ -15,8 +15,8 @@ para ejecutar el programa se debe:
 -server del frontend:
   -se inicia en el puerto 3000.
   -tiene 2 url:
-    -'/': por defecto, muestra el login(incompleto, ya que solo es la vista, no se conecta con el backend).
-    -'/createuser': contiene el formulario para cargar nombres de usuario y los lita, se conecta con el backend.
+    -'/login': por defecto, muestra el login(incompleto, ya que solo es la vista, no se conecta con el backend, no funciona).
+    -'/': contiene el formulario para cargar nombres de usuario y los lita, se conecta con el backend.
     -componentes react:
       -login.js: componente que simularia el login de un admin, no fue terminado.
       -UserCard.js: contiente el formulario y cada vez que se agrega un usuario, este se conecta con el backend y crea un nuevo             usuario. Este componente tambien lista los usuarios creados en la base de daros
